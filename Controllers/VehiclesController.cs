@@ -6,6 +6,7 @@ using vega.Persistence;
 using System.Threading.Tasks;
 using System;
 using Microsoft.EntityFrameworkCore;
+using vega.core;
 
 namespace vega.Controllers
 {

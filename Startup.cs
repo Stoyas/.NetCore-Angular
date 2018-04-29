@@ -12,6 +12,7 @@ using vega.Persistence;
 using Microsoft.EntityFrameworkCore;
 using MySql.Data.EntityFrameworkCore.Extensions;
 using AutoMapper;
+using vega.core;
 
 namespace vega
 {
