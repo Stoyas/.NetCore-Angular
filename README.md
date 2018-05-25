@@ -6,12 +6,12 @@ EntityFramework Core for MySql:
 1. Add entity framework core for mysql: dotnet add package MySql.Data.EntityFrameworkCore;
 2. Add entity framework design: dotnet add package Microsoft.EntityFrameworkCore.Design;
 3. Configure csproj file adding following two tools:
-<ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
-</ItemGroup> 
-<ItemGroup>
-   <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
-</ItemGroup>
+//<ItemGroup>
+    //<DotNetCliToolReference Include="Microsoft.DotNet.Watcher.Tools" Version="2.0.0" />
+//</ItemGroup> 
+//<ItemGroup>
+   //<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+//</ItemGroup>
 
 DbContext:
 1. Create Dbcontext: Inherit from DbContext;
